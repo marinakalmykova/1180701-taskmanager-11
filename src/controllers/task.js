@@ -11,7 +11,6 @@ export default class TaskController {
   constructor(container, onDataChange, onViewChange) {
     this._container = container;
     this._onDataChange = onDataChange;
-
     this._onViewChange = onViewChange;
     this._mode = Mode.DEFAULT;
     this._taskComponent = null;
